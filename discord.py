@@ -56,4 +56,6 @@ async def status_task():
 
 client = MyClient()
 
-client.run('Njk4NDk0NTY3MDA3Mzg3Njg5.XqVLsw.ImX6rtSwNd_RxGUBfQw8SjbMrrg')
+token = os.environ.get('BOT_TOKEN')
+
+client.run(str(token))
