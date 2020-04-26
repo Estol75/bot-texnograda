@@ -47,3 +47,4 @@ async def status_task():
         await asyncio.sleep(3)
 
 token = os.environ.get('BOT_TOKEN')
+client.run(token)
