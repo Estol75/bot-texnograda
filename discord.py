@@ -1,8 +1,9 @@
+import os
 import asyncio
 import discord
 from discord import utils
 import config
-import os
+
 
 class MyClient(discord.Client):
     async def on_ready(self):
